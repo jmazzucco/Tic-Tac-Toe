@@ -5,6 +5,7 @@ html, body {
 body {
   background-image: url("retina_wood.png");
   background-repeat: repeat;
+  margin-top: -150px;
 }
 
 .navbar {
@@ -55,6 +56,7 @@ footer {
 }
 
 .table-container{
+	padding-top: 10%;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -89,17 +91,21 @@ a {
 
 
 @media (max-width: 540px) {
+  body {
+   	margin-top: -60px;
+	}
+
   .navbar {
-  	height: 30px;
+  	height: 50px;
   	box-shadow: none;
-  	}
+  }
 
   #title {
-		letter-spacing: 2px;
-		font-size: 25px;
+		letter-spacing: 3px;
+		font-size: 35px;
 		text-align: center;
 		color: #659CEF;
-		line-height: 12px;
+		line-height: 25px;
 		font-family: sans-serif;
 	}
 
@@ -116,6 +122,7 @@ a {
 	}
 
 	.table-container{
+		padding-top: 35vw;
 		margin: 0 auto;
 		text-align: center;
 	}
