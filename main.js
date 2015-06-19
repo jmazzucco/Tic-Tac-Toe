@@ -9,7 +9,7 @@ $(document).ready(function() {
 			addX();
 
 			$("td").off("click");
-			comp_move_delay = Math.floor(Math.random() * (2000 - 750)) + 750;
+			comp_move_delay = Math.floor(Math.random() * (2000 - 1000)) + 1000;
 			setTimeout(function() { computer_move(); }, comp_move_delay);
 			checkBoard();
 		};
