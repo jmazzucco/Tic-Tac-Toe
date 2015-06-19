@@ -118,10 +118,18 @@ a {
 		width: 25vw;
 	  height: 25vw;
 		border: 5px solid rgb(60,60,60);
-		font-size: 10em;
+
 		overflow: hidden;
-		line-height: 65px;
-		overflow: hidden;
+		vertical-align: middle;
+
+   	overflow: hidden;
+
+	}
+
+	td > p {
+		padding-bottom: 5vw;
+		line-height: 0;
+		font-size: 40vw;
 	}
 
 	.table-container{
