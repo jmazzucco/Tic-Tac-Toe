@@ -67,10 +67,11 @@ td {
 	width: 150px;
 	border: 15px solid rgb(60,60,60);
 	margin: auto;
-	vertical-align: middle;
+
 	text-align: center;
-	font-size: 7em;
+	font-size: 16em;
 	overflow: hidden;
+	line-height: 100px;
 }
 
 td:hover {
@@ -105,7 +106,7 @@ a {
 		font-size: 35px;
 		text-align: center;
 		color: #659CEF;
-		line-height: 25px;
+		line-height: 31px;
 		font-family: sans-serif;
 	}
 
@@ -117,7 +118,9 @@ a {
 		width: 25vw;
 	  height: 25vw;
 		border: 5px solid rgb(60,60,60);
-		font-size: 6em;
+		font-size: 10em;
+		overflow: hidden;
+		line-height: 65px;
 		overflow: hidden;
 	}
 
