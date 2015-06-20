@@ -83,7 +83,7 @@ a {
 }
 
 .selected-o {
-	color: green;
+	color: tomato;
 }
 
 .selected-x {
@@ -125,7 +125,7 @@ a {
 	td > p {
 		margin: 0;
 		font-size: 39vw;
-/*  	margin-top: -8vw;*/
+  	margin-top: -8vw;
   /*	vertical-align: initial;*/
 	}
 

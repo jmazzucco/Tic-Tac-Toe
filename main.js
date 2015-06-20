@@ -19,7 +19,7 @@ $(document).ready(function() {
 				do {
 					var comp_select = Math.floor(Math.random() * (10 - 1)) + 1;
 				} while ($('#' + comp_select).hasClass("selected-o") || $('#' + comp_select).hasClass("selected-x"));
-				$('#' + comp_select).addClass("selected-o").append( "<p>o</p>" );
+				$('#' + comp_select).addClass("selected-o").append( "<p>o</p>"  );
 				addO();
 			};
 			$('td').on('click', user_move);
