@@ -1,0 +1,7 @@
+Add more logic to the computer_move method
+  -if there are 2 O’s in a row and the third space is free, select it to win
+  -if there are 2 X’s in a row and the third space is free, select it to prevent X from winning
+
+Alternate which player goes first. If X moved first the last game, O will have the first move.
+
+Add responsive design for smartphone horizontal displays
